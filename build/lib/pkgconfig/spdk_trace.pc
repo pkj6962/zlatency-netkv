@@ -1,0 +1,7 @@
+Description: SPDK trace library
+Name: spdk_trace
+Version: 4.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_trace
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

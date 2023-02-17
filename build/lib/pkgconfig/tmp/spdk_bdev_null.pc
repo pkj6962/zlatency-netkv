@@ -1,0 +1,7 @@
+Description: SPDK bdev_null library
+Name: spdk_bdev_null
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_bdev_null
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc spdk_bdev spdk_thread 
+Libs.private: 
+Cflags: -I/usr/local/include

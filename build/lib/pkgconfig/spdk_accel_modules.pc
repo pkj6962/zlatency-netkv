@@ -1,0 +1,4 @@
+Description: SPDK accel modules
+Name: spdk_accel_modules
+Version: 1.0
+Requires: spdk_accel_ioat spdk_ioat

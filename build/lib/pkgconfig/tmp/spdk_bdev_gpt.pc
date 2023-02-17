@@ -1,0 +1,7 @@
+Description: SPDK bdev_gpt library
+Name: spdk_bdev_gpt
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_bdev_gpt
+Requires: spdk_bdev spdk_json spdk_log spdk_thread spdk_util 
+Libs.private: 
+Cflags: -I/usr/local/include

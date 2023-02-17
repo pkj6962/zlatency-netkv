@@ -1,0 +1,7 @@
+Description: SPDK sock library
+Name: spdk_sock
+Version: 5.0
+Libs: -L/usr/local/lib  -lspdk_sock
+Requires: spdk_log spdk_json spdk_jsonrpc spdk_rpc spdk_sock_modules
+Libs.private: 
+Cflags: -I/usr/local/include

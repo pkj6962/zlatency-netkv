@@ -1,0 +1,7 @@
+Description: SPDK env_dpdk library
+Name: spdk_env_dpdk
+Version: 7.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_env_dpdk
+Requires: spdk_log spdk_dpdklibs
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

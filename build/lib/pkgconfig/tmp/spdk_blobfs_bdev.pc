@@ -1,0 +1,7 @@
+Description: SPDK blobfs_bdev library
+Name: spdk_blobfs_bdev
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_blobfs_bdev
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc spdk_bdev spdk_thread spdk_blob_bdev spdk_blobfs 
+Libs.private: 
+Cflags: -I/usr/local/include

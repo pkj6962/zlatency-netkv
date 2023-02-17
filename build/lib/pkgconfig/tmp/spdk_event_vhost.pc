@@ -1,0 +1,7 @@
+Description: SPDK event_vhost library
+Name: spdk_event_vhost
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_event_vhost
+Requires: spdk_init spdk_vhost spdk_event_scsi 
+Libs.private: 
+Cflags: -I/usr/local/include

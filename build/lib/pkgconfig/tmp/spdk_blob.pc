@@ -1,0 +1,7 @@
+Description: SPDK blob library
+Name: spdk_blob
+Version: 5.0
+Libs: -L/usr/local/lib  -lspdk_blob
+Requires: spdk_log spdk_util spdk_thread 
+Libs.private: 
+Cflags: -I/usr/local/include

@@ -1,0 +1,7 @@
+Description: SPDK init library
+Name: spdk_init
+Version: 1.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_init
+Requires: spdk_jsonrpc spdk_json spdk_log spdk_rpc spdk_thread spdk_util 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

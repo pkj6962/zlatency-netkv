@@ -1,0 +1,7 @@
+Description: SPDK nvmf library
+Name: spdk_nvmf
+Version: 9.0
+Libs: -L/usr/local/lib  -lspdk_nvmf
+Requires: spdk_accel spdk_log spdk_sock spdk_util spdk_nvme spdk_thread spdk_json spdk_jsonrpc spdk_rpc spdk_trace spdk_bdev 
+Libs.private: 
+Cflags: -I/usr/local/include

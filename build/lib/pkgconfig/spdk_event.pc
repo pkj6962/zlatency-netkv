@@ -1,0 +1,7 @@
+Description: SPDK event library
+Name: spdk_event
+Version: 9.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_event
+Requires: spdk_log spdk_util spdk_thread spdk_json spdk_jsonrpc spdk_rpc spdk_trace spdk_init spdk_env_dpdk_rpc
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

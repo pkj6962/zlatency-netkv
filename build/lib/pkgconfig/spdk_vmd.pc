@@ -1,0 +1,7 @@
+Description: SPDK vmd library
+Name: spdk_vmd
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_vmd
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

@@ -1,0 +1,7 @@
+Description: SPDK rpc library
+Name: spdk_rpc
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_rpc
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc 
+Libs.private: 
+Cflags: -I/usr/local/include

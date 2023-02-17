@@ -1,0 +1,7 @@
+Description: SPDK json library
+Name: spdk_json
+Version: 3.1
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_json
+Requires: spdk_log spdk_util 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

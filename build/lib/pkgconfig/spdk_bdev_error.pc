@@ -1,0 +1,7 @@
+Description: SPDK bdev_error library
+Name: spdk_bdev_error
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_bdev_error
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc spdk_bdev 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

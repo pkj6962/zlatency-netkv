@@ -1,0 +1,7 @@
+Description: SPDK blob_bdev library
+Name: spdk_blob_bdev
+Version: 5.0
+Libs: -L/usr/local/lib  -lspdk_blob_bdev
+Requires: spdk_log spdk_thread spdk_bdev 
+Libs.private: 
+Cflags: -I/usr/local/include

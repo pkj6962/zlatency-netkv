@@ -1,0 +1,7 @@
+Description: SPDK env_dpdk_rpc library
+Name: spdk_env_dpdk_rpc
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_env_dpdk_rpc
+Requires: spdk_log spdk_json spdk_jsonrpc spdk_rpc 
+Libs.private: 
+Cflags: -I/usr/local/include

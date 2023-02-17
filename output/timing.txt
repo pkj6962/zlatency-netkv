@@ -1,0 +1,5 @@
+external_make_hello_bdev_shared_iso 0
+external_make_hello_bdev_shared_iso 1
+external_run_hello_bdev_shared_iso 6
+external_make_hello_bdev_shared_iso 0
+external_run_hello_bdev_shared_iso 3

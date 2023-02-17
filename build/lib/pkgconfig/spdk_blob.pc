@@ -1,0 +1,7 @@
+Description: SPDK blob library
+Name: spdk_blob
+Version: 5.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_blob
+Requires: spdk_log spdk_util spdk_thread 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

@@ -1,0 +1,7 @@
+Description: SPDK blob_bdev library
+Name: spdk_blob_bdev
+Version: 5.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_blob_bdev
+Requires: spdk_log spdk_thread spdk_bdev 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

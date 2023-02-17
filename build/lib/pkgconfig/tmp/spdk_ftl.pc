@@ -1,0 +1,7 @@
+Description: SPDK ftl library
+Name: spdk_ftl
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_ftl
+Requires: spdk_log spdk_util spdk_thread spdk_trace spdk_bdev 
+Libs.private: 
+Cflags: -I/usr/local/include

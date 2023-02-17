@@ -1,0 +1,7 @@
+Description: SPDK event_scsi library
+Name: spdk_event_scsi
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_event_scsi
+Requires: spdk_init spdk_scsi spdk_event_bdev 
+Libs.private: 
+Cflags: -I/usr/local/include

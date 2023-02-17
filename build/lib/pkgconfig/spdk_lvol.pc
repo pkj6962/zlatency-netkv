@@ -1,0 +1,7 @@
+Description: SPDK lvol library
+Name: spdk_lvol
+Version: 4.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_lvol
+Requires: spdk_log spdk_util spdk_blob 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

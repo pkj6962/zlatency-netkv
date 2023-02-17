@@ -1,0 +1,7 @@
+Description: SPDK jsonrpc library
+Name: spdk_jsonrpc
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_jsonrpc
+Requires: spdk_log spdk_util spdk_json 
+Libs.private: 
+Cflags: -I/usr/local/include

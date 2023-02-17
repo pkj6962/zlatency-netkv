@@ -1,0 +1,7 @@
+Description: SPDK event_iscsi library
+Name: spdk_event_iscsi
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_event_iscsi
+Requires: spdk_init spdk_iscsi spdk_event_scsi spdk_event_sock 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

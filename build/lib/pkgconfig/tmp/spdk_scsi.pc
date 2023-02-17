@@ -1,0 +1,7 @@
+Description: SPDK scsi library
+Name: spdk_scsi
+Version: 4.0
+Libs: -L/usr/local/lib  -lspdk_scsi
+Requires: spdk_log spdk_util spdk_thread spdk_json spdk_jsonrpc spdk_rpc spdk_trace spdk_bdev 
+Libs.private: 
+Cflags: -I/usr/local/include

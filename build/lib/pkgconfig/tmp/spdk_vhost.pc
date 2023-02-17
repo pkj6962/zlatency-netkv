@@ -1,0 +1,7 @@
+Description: SPDK vhost library
+Name: spdk_vhost
+Version: 5.0
+Libs: -L/usr/local/lib  -lspdk_vhost
+Requires: spdk_log spdk_util spdk_thread spdk_json spdk_jsonrpc spdk_rpc spdk_bdev spdk_scsi 
+Libs.private: 
+Cflags: -I/usr/local/include

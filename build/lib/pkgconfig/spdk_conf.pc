@@ -1,0 +1,7 @@
+Description: SPDK conf library
+Name: spdk_conf
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_conf
+Requires: spdk_log spdk_util 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

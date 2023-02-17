@@ -1,0 +1,7 @@
+Description: SPDK ioat library
+Name: spdk_ioat
+Version: 4.0
+Libs: -L/usr/local/lib  -lspdk_ioat
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/usr/local/include

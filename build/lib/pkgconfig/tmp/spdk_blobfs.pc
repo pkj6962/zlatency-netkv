@@ -1,0 +1,7 @@
+Description: SPDK blobfs library
+Name: spdk_blobfs
+Version: 4.0
+Libs: -L/usr/local/lib  -lspdk_blobfs
+Requires: spdk_log spdk_thread spdk_blob spdk_trace 
+Libs.private: 
+Cflags: -I/usr/local/include

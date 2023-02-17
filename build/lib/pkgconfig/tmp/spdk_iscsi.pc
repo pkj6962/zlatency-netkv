@@ -1,0 +1,7 @@
+Description: SPDK iscsi library
+Name: spdk_iscsi
+Version: 5.0
+Libs: -L/usr/local/lib  -lspdk_iscsi
+Requires: spdk_log spdk_sock spdk_util spdk_conf spdk_thread spdk_json spdk_jsonrpc spdk_rpc spdk_trace spdk_scsi 
+Libs.private: 
+Cflags: -I/usr/local/include

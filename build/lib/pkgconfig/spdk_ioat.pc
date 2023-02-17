@@ -1,0 +1,7 @@
+Description: SPDK ioat library
+Name: spdk_ioat
+Version: 4.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_ioat
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

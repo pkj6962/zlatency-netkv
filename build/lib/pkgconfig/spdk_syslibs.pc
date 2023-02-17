@@ -1,0 +1,5 @@
+Description: System libraries used by SPDK
+Name: spdk_syslibs
+Version: 1.0
+Libs: 
+Libs.private:  -pthread -lrt -luuid -lcrypto -lm -laio  -lnuma -ldl

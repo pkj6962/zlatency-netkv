@@ -1,0 +1,7 @@
+Description: SPDK virtio library
+Name: spdk_virtio
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_virtio
+Requires: spdk_log spdk_util spdk_json spdk_thread 
+Libs.private: 
+Cflags: -I/usr/local/include

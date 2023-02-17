@@ -1,0 +1,7 @@
+Description: SPDK event_sock library
+Name: spdk_event_sock
+Version: 2.0
+Libs: -L/usr/local/lib  -lspdk_event_sock
+Requires: spdk_init spdk_sock 
+Libs.private: 
+Cflags: -I/usr/local/include

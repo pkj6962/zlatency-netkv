@@ -1,0 +1,7 @@
+Description: SPDK accel library
+Name: spdk_accel
+Version: 6.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_accel
+Requires: spdk_log spdk_util spdk_thread spdk_json spdk_accel_modules
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

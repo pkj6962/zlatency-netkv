@@ -1,0 +1,7 @@
+Description: SPDK event_bdev library
+Name: spdk_event_bdev
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_event_bdev
+Requires: spdk_init spdk_bdev spdk_event_accel spdk_event_vmd spdk_event_sock 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

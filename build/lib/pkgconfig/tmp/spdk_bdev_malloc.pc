@@ -1,0 +1,7 @@
+Description: SPDK bdev_malloc library
+Name: spdk_bdev_malloc
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_bdev_malloc
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc spdk_bdev spdk_accel 
+Libs.private: 
+Cflags: -I/usr/local/include

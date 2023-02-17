@@ -1,0 +1,7 @@
+Description: SPDK ut_mock library
+Name: spdk_ut_mock
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_ut_mock
+Requires:  
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

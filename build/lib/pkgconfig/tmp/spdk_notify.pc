@@ -1,0 +1,7 @@
+Description: SPDK notify library
+Name: spdk_notify
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_notify
+Requires: spdk_log spdk_util spdk_json spdk_jsonrpc spdk_rpc 
+Libs.private: 
+Cflags: -I/usr/local/include

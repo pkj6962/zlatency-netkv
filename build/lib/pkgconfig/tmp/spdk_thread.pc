@@ -1,0 +1,7 @@
+Description: SPDK thread library
+Name: spdk_thread
+Version: 6.0
+Libs: -L/usr/local/lib  -lspdk_thread
+Requires: spdk_log spdk_util spdk_trace 
+Libs.private: 
+Cflags: -I/usr/local/include

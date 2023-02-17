@@ -1,0 +1,7 @@
+Description: SPDK event_nvmf library
+Name: spdk_event_nvmf
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_event_nvmf
+Requires: spdk_init spdk_nvmf spdk_event_bdev spdk_event_sock spdk_thread spdk_log spdk_bdev spdk_util spdk_json spdk_jsonrpc spdk_rpc 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

@@ -1,0 +1,7 @@
+Description: SPDK accel_ioat library
+Name: spdk_accel_ioat
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_accel_ioat
+Requires: spdk_log spdk_ioat spdk_thread spdk_jsonrpc spdk_rpc spdk_accel 
+Libs.private: 
+Cflags: -I/usr/local/include

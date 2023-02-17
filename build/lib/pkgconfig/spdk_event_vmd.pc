@@ -1,0 +1,7 @@
+Description: SPDK event_vmd library
+Name: spdk_event_vmd
+Version: 3.0
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_event_vmd
+Requires: spdk_init spdk_vmd spdk_json spdk_jsonrpc spdk_rpc spdk_log spdk_thread 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

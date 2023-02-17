@@ -1,0 +1,7 @@
+Description: SPDK util library
+Name: spdk_util
+Version: 3.1
+Libs: -L/home/junghwan/spdk/build/lib  -lspdk_util
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/home/junghwan/spdk/build/include

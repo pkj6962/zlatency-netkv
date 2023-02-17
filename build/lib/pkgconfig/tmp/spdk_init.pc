@@ -1,0 +1,7 @@
+Description: SPDK init library
+Name: spdk_init
+Version: 1.0
+Libs: -L/usr/local/lib  -lspdk_init
+Requires: spdk_jsonrpc spdk_json spdk_log spdk_rpc spdk_thread spdk_util 
+Libs.private: 
+Cflags: -I/usr/local/include

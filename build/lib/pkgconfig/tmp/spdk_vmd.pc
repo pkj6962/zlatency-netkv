@@ -1,0 +1,7 @@
+Description: SPDK vmd library
+Name: spdk_vmd
+Version: 3.0
+Libs: -L/usr/local/lib  -lspdk_vmd
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/usr/local/include

@@ -1,0 +1,7 @@
+Description: SPDK nvme library
+Name: spdk_nvme
+Version: 6.0
+Libs: -L/usr/local/lib  -lspdk_nvme
+Requires: spdk_log spdk_sock spdk_util 
+Libs.private: 
+Cflags: -I/usr/local/include

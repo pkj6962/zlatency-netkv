@@ -1,0 +1,4 @@
+Description: SPDK bdev modules
+Name: spdk_bdev_modules
+Version: 1.0
+Requires: spdk_bdev_malloc spdk_bdev_null spdk_bdev_nvme spdk_bdev_passthru spdk_bdev_lvol spdk_bdev_raid spdk_bdev_error spdk_bdev_gpt spdk_bdev_split spdk_bdev_delay spdk_bdev_zone_block spdk_blobfs spdk_blobfs_bdev spdk_blob_bdev spdk_blob spdk_lvol spdk_vmd spdk_nvme spdk_bdev_ftl spdk_ftl spdk_bdev_aio spdk_bdev_virtio spdk_virtio

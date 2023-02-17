@@ -1,0 +1,7 @@
+Description: SPDK log library
+Name: spdk_log
+Version: 4.0
+Libs: -L/usr/local/lib  -lspdk_log
+Requires:  
+Libs.private: 
+Cflags: -I/usr/local/include
