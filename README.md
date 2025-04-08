@@ -1,4 +1,4 @@
-# znetkv: Zero-Latency Networked Key-Value Store with SPDK and NVMe-oF
+# zlatency-netkv: Zero-Latency Networked Key-Value Store with SPDK and NVMe-oF
 
 > ⚡ A high-performance, ultra-low-latency key-value store designed for disaggregated storage systems, built on SPDK and NVMe-over-Fabrics.
 
