@@ -27,3 +27,17 @@ We **offload KV operations to the server**, using SPDK’s user-level polled I/O
 
 ## ⚙️ Architecture
 
+![zlatency-netkv Architecture](docs/img/VNetKV_Architecture.png)
+
+
+
+## 📈 Key Results (from [OctoKV paper](https://github.com/lass-lab/octokv))
+
+![zlatency-netkv Architecture](docs/img/VNetKV_ExperimentResult.png)
+
+- 🧊 **12–18% lower latency** in write-heavy workloads vs client-side KVS
+- 🎯 **75% OS overhead eliminated**
+
+
+
+
