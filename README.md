@@ -25,7 +25,14 @@ Traditional KVS on the client side introduces high overhead due to:
 
 We **offload KV operations to the server**, using SPDK’s user-level polled I/O model, while addressing **load imbalance** between SPDK threads using a custom scheduling framework.
 
+
 ## ⚙️ Architecture
+
+<img src="doc/img/storage-node-based-design.png" width="600"/>
+
+
+
+## ⚙️ Design 
 
 <img src="doc/img/VNetKV_Architecture.png" width="600"/>
 
