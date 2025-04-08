@@ -32,7 +32,7 @@ We **offload KV operations to the server**, using SPDK’s user-level polled I/O
 
 
 
-## 📈 Key Results (from [OctoKV paper](https://github.com/lass-lab/octokv))
+## 📈 Key Results 
 
 
 <img src="doc/img/VNetKV_ExperimentResult.png" width="600"/>
